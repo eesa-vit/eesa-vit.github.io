@@ -1036,6 +1036,41 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+@media(max-width:460px) {
+  .portfolio{
+    width: 98vw;
+    height: auto;
+  }
+  .portfolio-img{
+    width: 390px;
+    height: 205px;
+    margin-left: 12px;
+  }
+  .portfolio .container .section-title {
+    width: 100vw;
+  }
+  .portfolio .container .portfolio-info {
+    width: 88vw;
+  }
+}
+
+@media(max-width:720px) {
+  .portfolio{
+    width: 98vw;
+    height: auto;
+  }
+  .portfolio-img{
+    width: 390px;
+    height: 205px;
+    margin-left: 12px;
+  }
+  .portfolio .container .section-title {
+    width: 100vw;
+  }
+  .portfolio .container .portfolio-info {
+    width: 88vw;
+  }
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
