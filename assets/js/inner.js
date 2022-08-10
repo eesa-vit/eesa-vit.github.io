@@ -1,0 +1,1 @@
+document.querySelector("#home > div > div > div.counter-box.wow.fadeInDown.animated")
