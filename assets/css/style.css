@@ -663,6 +663,7 @@ section {
   font-family: 'Chakra Petch', sans-serif;
 }
 .about .container .row p {
+  text-transform: uppercase;
   font-size: 16px;
 }
 .about .content ul {
@@ -673,6 +674,7 @@ section {
   padding-left: 0px;
   padding-right: 30px;
   position: relative;
+  text-transform: uppercase;
   font-size: 16px;
 }
 .about .content ul li + li {
@@ -2028,4 +2030,14 @@ body.dark {
 
 .ri-sun-fill {
   color: yellow;
+}
+
+
+@media(min-width: 768px) {
+  .team #gs{
+    margin-left: 170px;
+  }
+  .team #gs1{
+    margin-left: 80px;
+  }
 }
