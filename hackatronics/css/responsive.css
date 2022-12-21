@@ -219,9 +219,9 @@
 
 	/*---------- HOME PAGE ------------*/
 	.main-menu {padding: 0px 15px;}
-	.home-banner {padding-top: 130px; padding-bottom: 70px; margin-top: 90px;}
+	.home-banner {padding-top: 150px; padding-bottom: 70px; margin-top: 90px;}
 	.banner-content p {font-size: 14px; line-height: 23px;}
-	.banner-img {margin-top: 20px; padding: 0;}
+	.banner-img {margin-top: 20px; padding: 0; margin-left: -110px;}
 	.feature-box:nth-child(3n + 2), .feature-box:nth-child(3n + 3) {animation-delay: unset;}
 	.feature-title {font-size: 18px;}
 	.feature-icon {max-width: 35px;}
