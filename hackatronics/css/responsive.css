@@ -97,7 +97,7 @@
 	/*---------- HEADER STYLE ------------*/
 	.header {padding: 15px 0px;}
 	.logo img {max-width: 170px;}
-	.main-menu {position: fixed; top: 59px; left: 0; width: 100%; height: calc(100vh - 59px); display: none; padding: 0px 45px; border-top: 1px solid; overflow: auto;}
+	.main-menu {position: fixed; top: 59px; right: 0; width: 60%; height: calc(100vh - 59px); display: none; padding: 0px 45px; border-top: 1px solid; overflow: auto;}
 	.nav-menu {width: 100%; text-align: left !important;}
 	.nav-menu > ul {padding-right: 0; text-align: left; padding-top: 10px;}
 	.nav-menu > ul > li {display: block; margin: 0;}
@@ -114,7 +114,7 @@
 	.menu-toggle span:after {top: unset; bottom: 0; left: 0;}
 	.menu-toggle.active span:before {transform: rotate(-45deg); top: 8px;}
 	.menu-toggle.active span:after {transform: rotate(45deg); top: 8px;}
-	.nav-menu > ul > li.menu-dropdwon > a:before, .nav-menu > ul > li.menu-dropdwon > a:after {content: ""; position: absolute; border: 0; width: 14px; height: 2px;  top: 50%; right: 0; transform: unset; left: unset; opacity: 1; visibility: visible; transform: translateY(-50%); transition: all 400ms ease;}
+	.nav-menu > ul > li.menu-dropdwon > a:before, .nav-menu > ul > li.menu-dropdwon > a:after {content: ""; position: absolute; border: 0; width: 14px; height: 2px;  top: 50%; right: 0; transform: unset; left: unset; opacity: 0; visibility: visible; transform: translateY(-50%); transition: all 400ms ease;}
 	.nav-menu > ul > li.menu-dropdwon > a:after {right: 6px; width: 2px; height: 14px;}
 	.nav-menu > ul > li.menu-dropdwon > a.active:after {transform: translateY(-50%) rotate(90deg);}
 
