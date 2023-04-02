@@ -471,3 +471,24 @@ form.get-touch {padding-top: 70px; max-width: 720px; margin: 0 auto;}
 .copyright ul li {display: inline-block; padding: 0px 10px;}
 .copyright ul li:first-child {padding-left: 0;}
 .copyright ul li:last-child {padding-right: 0;}
+
+
+/* Timer Section */
+.countdownHolder {font-size: 45px; line-height: 45px; font-weight: 500; padding-top: 40px; display: flex; justify-content: center; margin-bottom: 70px; animation-delay: 0.6s;}
+.countdownHolder .counter-list {display: flex; position: relative; padding: 0px 15px; margin: 0; flex-wrap: wrap;}
+.countdownHolder .counter-list:first-child {padding-left: 0;}
+.countdownHolder .counter-list:last-child {padding-right: 0;}
+.countdownHolder .counter-list:before,
+.countdownHolder .counter-list:after {content: ""; position: absolute; width: 6px; height: 6px; border-radius: 100%;}
+.countdownHolder .counter-list:before {top: 25px; right: -3px;}
+.countdownHolder .counter-list:after {bottom: 25px; right: -3px;}
+.countdownHolder .counter-list:last-child:before,
+.countdownHolder .counter-list:last-child:after {content: unset;}
+.countdownHolder .digit-count {display: block; width: 60px; height: 80px; line-height: 80px; border-radius: 7px; margin: 0px 6px; position: relative; overflow: hidden;}
+.countdownHolder .digit {display: block; position: absolute; left: 50%; transform: translate(-50%);}
+.countdownHolder .label {font-size: 16px; line-height: 20px; text-transform: uppercase; font-weight: 600; position: absolute; bottom: -35px; left: 0; display: block; width: 100%;}
+.position.digit-count:first-child {margin-left: 0;}
+.countdownHolder .digit-count:nth-child(2) {margin-right: 0;}
+.countdownHolder .counter-list:first-child .label {width: calc(100% - 15px);}
+.countdownHolder .counter-list:nth-child(4) .label {width: calc(100% - 15px); left: unset; right: 0;}
+ul, li, label, span {list-style: none; padding: 0; margin: 0;}
