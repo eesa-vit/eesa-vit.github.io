@@ -250,7 +250,7 @@ $(function(){
     /* initialization main script */
     $(function(){
         var note = $('#note'),
-            ts = new Date(2023, 3, 13),
+            ts = new Date(2023, 4, 13),
             newYear = true;
         if((new Date()) > ts){
             // The new year is here! Count towards something else.
