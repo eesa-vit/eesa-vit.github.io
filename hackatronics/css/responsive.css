@@ -43,6 +43,13 @@
 
 	/*---------- HOME PAGE ------------*/
 	.home-banner {padding-top: 250px; padding-bottom: 150px;}
+	.countdownHolder {font-size: 35px; line-height: 35px; margin-bottom: 80px; padding-top: 50px;}
+    .countdownHolder .digit-count {width: 50px; height: 60px; line-height: 62px; margin: 0px 4px;}
+    .countdownHolder .counter-list {padding: 0px 10px;}
+    .countdownHolder .counter-list:after {bottom: 18px;}
+    .countdownHolder .counter-list:before {top: 18px;}
+    .countdownHolder .counter-list:first-child .label {width: calc(100% - 10px);}
+	.countdownHolder .counter-list:nth-child(4) .label {width: calc(100% - 10px)}
 	.work-content .section-sub {max-width: 300px;}
 	.member-post {font-size: 14px; padding-top: 3px; padding-bottom: 10px;}
 	.team-img {width: 150px; height: 150px; margin-bottom: 15px;}
@@ -139,6 +146,10 @@
 	.faq-img img {max-width: 400px; width: 100%;}
 	.faq-content .nav {justify-content: center;}
 
+	.countdownHolder {font-size: 25px; line-height: 25px; margin-bottom: 60px; padding-top: 30px;}
+	.countdownHolder .digit-count {width: 40px; height: 50px; line-height: 52px;}
+	.countdownHolder .label {font-size: 14px; bottom: -25px;}
+
 	/*---------- BLOG LIST PAGE ------------*/
 	.blog-list-title {font-size: 22px; line-height: 30px;}
 
@@ -234,6 +245,13 @@
 	.blog-slider .owl-dots {padding-top: 10px;}
 	.banner-content .button {margin-top: 25px;}
 	.faq-content .nav li {padding-bottom: 10px;}
+
+	.countdownHolder {font-size: 20px; line-height: 20px; margin-bottom: 40px; padding-top: 20px;}
+	.countdownHolder .counter-list {padding: 0px 5px;}
+	.countdownHolder .digit-count {width: 30px; height: 30px; line-height: 33px; margin: 0px 2px;}
+	.countdownHolder .label {font-size: 12px; bottom: -22px;}
+	.countdownHolder .counter-list:first-child .label {width: calc(100% - 5px);}
+	.countdownHolder .counter-list:nth-child(4) .label {width: calc(100% - 5px);}
 
 	/*---------- ABOUT PAGE ------------*/
 	.play-icon span {width: 55px; height: 55px;}
