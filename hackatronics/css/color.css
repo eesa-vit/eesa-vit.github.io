@@ -63,6 +63,12 @@ h1, h2, h3, h4, h5, h6 {color: #fff;}
 .nav-tabs .nav-link:before {background-image: linear-gradient(to right, #3326b1 , #0ac6d4);}
 .faq-box {background: #1c0252;}
 .faq-title {color: #fff;}
+
+.countdownHolder .counter-list:before,
+.countdownHolder .counter-list:after {background: #d9d9d9;}
+.countdownHolder .digit-count {background: #2a229a;}
+
+
 /*---------- ABOUT PAGE ------------*/
 .page-banner {background: linear-gradient(135deg, #150140 30%, #1c106b 50%, #120337 70%);}
 .play-icon span i {color: #1c0252;}
